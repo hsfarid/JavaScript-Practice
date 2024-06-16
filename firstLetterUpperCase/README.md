@@ -1,0 +1,1 @@
+JavaScript function that accepts a string as a paramenter and converts the first letter of each word into uppercase
