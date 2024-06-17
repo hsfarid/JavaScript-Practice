@@ -1,1 +1,0 @@
-This repository contains about 50 JavaScript projects categorized under JavaScript basics, JavaScript strings, JavaScript conditional statements and loops, JavaScript arrays, and JavaScript Date and Time. Each category has its branch. To see projects under any category, navigate and click on the branches dropdown(top-left) and select the branch to see the projects.
