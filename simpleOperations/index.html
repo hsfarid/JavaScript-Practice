@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multiplication and Division</title>
+    <style>
+      div {
+        margin-top: 10px;
+      }
+      button {
+        margin-top: 10px;
+        cursor: pointer;
+        border: none;
+        padding: 6px 8px;
+        color: white;
+        border-radius: 4px;
+      }
+      .multiplyBtn {
+        background-color: blue;
+      }
+      .divideBtn {
+        background-color: green;
+      }
+      .multiplyBtn:hover,
+      .divideBtn:hover {
+        opacity: 0.5;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <div>
+        <label for="num1">Enter first number</label>
+        <input name="num1" type="text" class="js-num1" />
+      </div>
+
+      <div>
+        <label for="num2">Enter second number</label>
+        <input name="num2" type="text" class="js-num2" />
+      </div>
+    </form>
+    <button class="multiplyBtn">Multiply</button>
+    <button class="divideBtn">Divide</button>
+    <div class="result"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
