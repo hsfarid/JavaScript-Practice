@@ -1,0 +1,1 @@
+Write a JavaScript function to count the number of days passed since beginning of the year.
